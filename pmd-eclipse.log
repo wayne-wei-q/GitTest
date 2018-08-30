@@ -1,0 +1,128 @@
+2018/08/28 11:07:45,631 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppy
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResource(ReviewCodeCmd.java:442)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResources(ReviewCodeCmd.java:373)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(ReviewCodeCmd.java:191)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(JobCommandProcessor.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppy
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesImpl.setRuleSetStoredInProject(ProjectPropertiesImpl.java:206)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.fillProjectProperties(ProjectPropertiesManagerImpl.java:227)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(ProjectPropertiesManagerImpl.java:110)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(PMDPlugin.java:416)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.getProjectProperties(ReviewCodeCmd.java:380)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResource(ReviewCodeCmd.java:399)
+	... 4 more
+2018/08/28 11:24:12,100 ERROR PMDPlugin                        Error executing command DetectCutAndPaste
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppytrail
+	at net.sourceforge.pmd.eclipse.runtime.cmd.DetectCutAndPasteCmd.execute(DetectCutAndPasteCmd.java:140)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(JobCommandProcessor.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppytrail
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesImpl.setRuleSetStoredInProject(ProjectPropertiesImpl.java:206)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.fillProjectProperties(ProjectPropertiesManagerImpl.java:227)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(ProjectPropertiesManagerImpl.java:110)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(PMDPlugin.java:416)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.AbstractProjectCommand.projectProperties(AbstractProjectCommand.java:62)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.DetectCutAndPasteCmd.findCandidateFiles(DetectCutAndPasteCmd.java:230)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.DetectCutAndPasteCmd.execute(DetectCutAndPasteCmd.java:115)
+	... 2 more
+2018/08/28 11:24:17,091 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppy
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResource(ReviewCodeCmd.java:442)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processJavaProject(ReviewCodeCmd.java:491)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processProject(ReviewCodeCmd.java:457)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResources(ReviewCodeCmd.java:371)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(ReviewCodeCmd.java:191)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(JobCommandProcessor.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppy
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesImpl.setRuleSetStoredInProject(ProjectPropertiesImpl.java:206)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.fillProjectProperties(ProjectPropertiesManagerImpl.java:227)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(ProjectPropertiesManagerImpl.java:110)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(PMDPlugin.java:416)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.getProjectProperties(ReviewCodeCmd.java:380)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResource(ReviewCodeCmd.java:399)
+	... 6 more
+2018/08/28 11:24:20,478 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppytrail
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResource(ReviewCodeCmd.java:442)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processJavaProject(ReviewCodeCmd.java:491)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processProject(ReviewCodeCmd.java:457)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResources(ReviewCodeCmd.java:371)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(ReviewCodeCmd.java:191)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(JobCommandProcessor.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppytrail
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesImpl.setRuleSetStoredInProject(ProjectPropertiesImpl.java:206)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.fillProjectProperties(ProjectPropertiesManagerImpl.java:227)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(ProjectPropertiesManagerImpl.java:110)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(PMDPlugin.java:416)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.getProjectProperties(ReviewCodeCmd.java:380)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResource(ReviewCodeCmd.java:399)
+	... 6 more
+2018/08/28 11:24:23,733 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppytrailhmc
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResource(ReviewCodeCmd.java:442)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processJavaProject(ReviewCodeCmd.java:491)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processProject(ReviewCodeCmd.java:457)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResources(ReviewCodeCmd.java:371)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(ReviewCodeCmd.java:191)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(JobCommandProcessor.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppytrailhmc
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesImpl.setRuleSetStoredInProject(ProjectPropertiesImpl.java:206)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.fillProjectProperties(ProjectPropertiesManagerImpl.java:227)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(ProjectPropertiesManagerImpl.java:110)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(PMDPlugin.java:416)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.getProjectProperties(ReviewCodeCmd.java:380)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResource(ReviewCodeCmd.java:399)
+	... 6 more
+2018/08/28 11:24:26,914 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppytrailfrontend
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResource(ReviewCodeCmd.java:442)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processJavaProject(ReviewCodeCmd.java:491)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processProject(ReviewCodeCmd.java:457)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResources(ReviewCodeCmd.java:371)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(ReviewCodeCmd.java:191)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(JobCommandProcessor.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppytrailfrontend
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesImpl.setRuleSetStoredInProject(ProjectPropertiesImpl.java:206)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.fillProjectProperties(ProjectPropertiesManagerImpl.java:227)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(ProjectPropertiesManagerImpl.java:110)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(PMDPlugin.java:416)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.getProjectProperties(ReviewCodeCmd.java:380)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResource(ReviewCodeCmd.java:399)
+	... 6 more
+2018/08/28 11:24:30,097 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppytrailcockpit
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResource(ReviewCodeCmd.java:442)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processJavaProject(ReviewCodeCmd.java:491)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processProject(ReviewCodeCmd.java:457)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResources(ReviewCodeCmd.java:371)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(ReviewCodeCmd.java:191)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(JobCommandProcessor.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppytrailcockpit
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesImpl.setRuleSetStoredInProject(ProjectPropertiesImpl.java:206)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.fillProjectProperties(ProjectPropertiesManagerImpl.java:227)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(ProjectPropertiesManagerImpl.java:110)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(PMDPlugin.java:416)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.getProjectProperties(ReviewCodeCmd.java:380)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResource(ReviewCodeCmd.java:399)
+	... 6 more
+2018/08/29 18:39:05,589 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppytrail
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResourceDelta(ReviewCodeCmd.java:583)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(ReviewCodeCmd.java:189)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(JobCommandProcessor.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: The project ruleset file cannot be found for project cuppytrail
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesImpl.setRuleSetStoredInProject(ProjectPropertiesImpl.java:206)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.fillProjectProperties(ProjectPropertiesManagerImpl.java:227)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(ProjectPropertiesManagerImpl.java:110)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(PMDPlugin.java:416)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.getProjectProperties(ReviewCodeCmd.java:380)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResourceDelta(ReviewCodeCmd.java:551)
+	... 3 more
